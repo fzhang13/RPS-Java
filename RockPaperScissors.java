@@ -31,7 +31,7 @@ public class RockPaperScissors {
     }
 
     public void startGame() {
-        System.out.println("Welcome to Rock, Paper, Scissors!");
+        System.out.println("\nWelcome to Rock, Paper, Scissors!");
 
         Move userMove = user.getMove();
         Move computerMove = computer.getMove();
