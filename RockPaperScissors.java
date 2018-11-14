@@ -71,11 +71,11 @@ public class RockPaperScissors {
         double percentageWon = (wins +((double)ties)/2)/numberOfGames;
 
 
-        System.out.printf("|  %6s  |  %6s  |  %6s  |  %12s  |  %14s  |\n",
+        System.out.printf("\n\n|  %6s  |  %6s  |  %6s  |  %12s  |  %14s  |\n",
             "WINS", "LOSSES", "TIES", "GAMES PLAYED", "PERCENTAGE WON");
         
 
-            System.out.printf("|  %6d  |  %6d  |  %6d  |  %12d  |  %13.2f%%  |\n",
+            System.out.printf("|  %6d  |  %6d  |  %6d  |  %12d  |  %13.2f%%  |\n\n",
             wins, losses, ties, numberOfGames, percentageWon * 100);
 
     }
