@@ -126,8 +126,6 @@ public class RockPaperScissors {
         }
     }
 
-
-
     public RockPaperScissors() {
         user = new User();
         computer = new Computer();
@@ -135,9 +133,4 @@ public class RockPaperScissors {
         computerScore = 0;
         numberOfGames = 0;
     }
-
-    public static void main(String[] args) {
-        RockPaperScissors game = new RockPaperScissors();
-        game.startGame();
-        }
 }

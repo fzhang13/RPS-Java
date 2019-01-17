@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RunRPS",
+            "request": "launch",
+            "mainClass": "RunRPS"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RockPaperScissors",
             "request": "launch",
             "cwd": "${workspaceFolder}",
