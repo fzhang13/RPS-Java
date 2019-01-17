@@ -11,9 +11,9 @@ This is a simple rock paper scissor program developed using Java
 
 ## Running the Program
 
-* Download RockPaperScissors.java file 
-* In the directory, run command javac RockPaperScissors.java in the terminal
-* Once it compiles, run the program in terminal by running command java RockPaperScissors
+* Download the package
+* In the directory, run command javac RockPaperScissors.java and javac RunRPS.java in the terminal
+* Once it compiles, run the program in terminal by running command java RunRPS
 
 
 ## Built With
